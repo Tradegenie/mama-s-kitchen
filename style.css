@@ -1,0 +1,25 @@
+/* week 3. Have in mind rule, selector-body, property-background color, elements respect colors*/
+body { 
+    background-color: #fff8f0;
+    color:  #1a1a1a ;
+    font-family: "inter", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+
+}
+
+
+h1,h2{
+    font-family: "Playfair Display", Georgia, serif;
+
+}
+
+p{
+    color:  #6b7280;
+
+}
+
+a{
+    color:  #c0392b;
+
+}
