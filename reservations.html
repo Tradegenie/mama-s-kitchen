@@ -24,29 +24,43 @@
       <h2>Book Your table</h2>
       <p>We seat on a first-come basis most nights, but reservations are always honoured. Fridays and Saturdays book out, so reserve early.
       </p>
+      
 
 <form action="">
   <h3>Tell us when and we'll set the table.</h3>
 
   
-  <label for="First-name">First name</label>
+  <div>
+    <label for="First-name">First name</label>
   <input type="text" id="First-name" required>
-
-  <label for="Last-name">Last name</label>
-  <input type="text" id="Last-name" required>
-
-  <label for="Email">Your email</label>
-  <input type="email" id="Email" required>
-
-  <label for="Phone-number">Phone number</label>
-  <input type="tel" id="Phone-number" required>
-
-  <label for="Date">Date</label>
-  <input type="date" id="Date" required>
-
-  <label for="time">Reservation Time</label>
+  </div>
 
   <div>
+    <label for="Last-name">Last name</label>
+  <input type="text" id="Last-name" required>
+  </div>
+
+ <div>
+  <label for="Email">Your email</label>
+  <input type="email" id="Email" required>
+ </div>
+
+ <div>
+  <label for="Phone-number">Phone number</label>
+  <input type="tel" id="Phone-number" required>
+ </div>
+
+  <div>
+    <label for="Date">Date</label>
+  <input type="date" id="Date" required>
+  </div>
+
+  <div>
+    <label for="time">Reservation Time</label>
+  </div>
+
+  <div>
+    <label for="time">Time</label>
   <select id="time">
     <option value="">Select a time</option>
     <option value="12:00">12:00PM</option>
@@ -59,7 +73,7 @@
   </select>
 </div>
 <div>
-  <label for="guest">Numbner of guests</label>
+  <label for="guest">Number of guests</label>
   <input type="number" name="guest" id="guest" min="1" max="12" required>
 
   <p>Up to 12. For bigger groups, call us</p>
