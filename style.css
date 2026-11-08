@@ -9,17 +9,31 @@ body {
 }
 
 
-h1,h2{
-    font-family: "Playfair Display", Georgia, serif;
+h1,h2,h3,h4{
+    font-family: "inter", Arial, sans-serif ;
 
 }
 
-p{
-    color:  #6b7280;
 
+.eyebrow{
+    color: #c0392b;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-a{
-    color:  #c0392b;
+.btn{
+    background-color: #c0392b;
+    color: #ffffff;
+    text-decoration: none;
+}
 
+header h1{
+    color: #c0392b;
+}
+
+nav a{
+    color: #1a1a1a;
+    text-decoration: none;
 }
